@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .income-card {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .expense-card {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .balance-card {
+    background-color: #cce5ff;
+    color: #004085;
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, select, button {
+    padding: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+  }
+  
+  .filters {
+    margin-top: 20px;
+  }
+  
+  .filters label {
+    margin-right: 10px;
+  }
+  
+  #entry-list {
+    list-style-type: none;
+  }
+  
+  .entry-card {
+    display: flex;
+    justify-content: space-between;
+  }
+  
